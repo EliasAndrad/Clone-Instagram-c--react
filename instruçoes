@@ -1,0 +1,7 @@
+npx create-rect-app <nome do projeto>
+
+cd <nome do projeto> entrar na pasta do projeto
+
+npm start: executar projeto
+
+
