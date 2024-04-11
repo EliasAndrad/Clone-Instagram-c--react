@@ -2,6 +2,10 @@ body {
   background: #fafafa;
 }
 
+#img {
+  width: 100%;
+}
+
 #root {
   display: flex;
   flex-direction: row;
@@ -17,21 +21,34 @@ body {
 }
 
 .conteudoLateralEsquerda {
+  position: relative;
   display: flex;
   width:15vw;
-  background: red;
+  background: rgb(255, 255, 255);
+  border-right: 1px solid rgb(189, 175, 175);
 }
 
 .conteudoLateralDireita {
-  background: blue;
+  background: rgb(255, 255, 255);
   width:20vw;
 }
 
 .conteudoCentral {
   width:65vw;
-  background: yellow;
+  background: rgb(255, 255, 255);
 }
 
-#img{
-    width: 50px;
+
+li{
+  list-style-type: none;
+  padding: 15px;
+}
+
+ul{
+  padding: 0;
+}
+
+.profile{
+  position: absolute ;
+  bottom: 0;
 }

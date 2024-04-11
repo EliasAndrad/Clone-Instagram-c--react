@@ -1,7 +1,13 @@
-export default function TextMenu(props) {
+import {FaTwitter}  from "react-icons/fa";
+
+
+
+export default function TextMenu(propiedade) {
     return (
       <li className='text-menu'>
-          {props.nome}
+          <span>{propiedade.icone}</span>
+          <span>{propiedade.nome}</span>
+          {/* <FaTwitter/> */}
       </li>
     );
   }
