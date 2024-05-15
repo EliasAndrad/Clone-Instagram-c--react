@@ -1,0 +1,79 @@
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textoProfile h3{
+    margin-bottom: 2px;
+}
+
+.imagemPerfil img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin-bottom: 12px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile img{
+    width: 60px;
+    border-radius: 60px;
+}
+
+.textoProfile p{
+ margin-top: 5px;
+}
+.textoProfile{
+ margin-left: 20px;
+}
+
+.imagemPerfil{
+    width: 70px;
+    border-radius: 60px;
+}
+.ConteudoLateralDireita{
+    margin-top:3px ;
+    width: 20%;
+    padding: 10px;
+
+}
+
+.siga{
+    display: flex;
+    flex-direction: row;
+}
+.seguir{
+    margin-left: 60px;
+    font-weight:700 ;
+    color: rgb(63, 140, 222);
+}
+.abc{
+    display: flex;
+    color: #c9c9c9;
+}
+.abc p{
+    color: #c9c9c9;
+}
+
+li {
+    list-style-position: inside; 
+    padding-left: 5px; 
+}
+.dev{
+    color: #c9c9c9;
+}
+.titleSugestao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+ .titleSugestao h4{
+    color: #9f9f9f;
+ }

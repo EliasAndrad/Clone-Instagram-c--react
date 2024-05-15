@@ -2,6 +2,12 @@ import { useState } from "react";
 
 import './Post.css';
 import { FaRegHeart } from "react-icons/fa";
+import { FaRegCommentAlt } from "react-icons/fa";
+import { FaRegShareSquare } from "react-icons/fa";
+
+
+
+
 
 
 export default function Post(props) {
@@ -12,7 +18,7 @@ export default function Post(props) {
 
     if (likes === 0) {
         color = "black"
-    }else{
+    } else {
         color = "red"
     }
 
@@ -20,19 +26,27 @@ export default function Post(props) {
     return (
         <div className="card Post">
             <div className="card-header">
-                <img src={props.imgPerfil} alt="" className=""/>
+                <img src={props.imgPerfil} alt="" className="" />
                 <div className="conteudoHeaderPost">
                     <h5>{props.nomeUsuario}</h5>
                     <p>{props.descricao}</p>
                 </div>
-                
+
             </div>
             <div className="card-body">
                 <img src={props.imgSrc} />
-                <FaRegHeart
-                 onClick={() => setLikes(likes + 1)}
-                 style={{ fontSize: '20px', color: color, cursor:'pointer' }} 
-                />
+                <div className="icons">
+
+                    <FaRegHeart
+                        className="icon"
+                        onClick={() => setLikes(likes + 1)}
+                        style={{ fontSize: '20px', color: color, cursor: 'pointer' }}
+                    />
+                    <FaRegCommentAlt className="icon"/>
+                    <FaRegShareSquare className="icon"/>
+
+                </div>
+
                 <p>{props.body}</p>
             </div>
             <div className="card-footer">

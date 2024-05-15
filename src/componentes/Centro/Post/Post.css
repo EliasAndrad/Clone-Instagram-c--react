@@ -74,6 +74,7 @@
     height: 40px;
     border-radius: 50%; /* Removido o segundo border-radius e box-shadow */
     border: 2px solid #DD2A7B;
+    padding: 3px;
 }
 
 .Post .card-body img {
@@ -85,4 +86,17 @@
     .Post {
         max-width: 100%; /* Alterado para ocupar toda a largura da tela */
     }
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 17px;
+    color: inherit;
+    cursor: pointer;
 }
